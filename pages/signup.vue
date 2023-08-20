@@ -17,6 +17,7 @@
       <p class="mt-2 text-lg leading-8 text-zinc-400">We're now accepting requests to signup for our private beta. Please fill out the below form and we'll reach out to you to get things started.</p>
     </div>
     <form 
+      netlify
       name="contact-form"
       action="/signup-success"
       method="POST"
