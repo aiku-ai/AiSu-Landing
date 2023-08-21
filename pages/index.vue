@@ -37,20 +37,20 @@ useHead({
   title: 'AiSu - Freeing engineers from Agile',
   meta: [
     // PRIMARY TAGS
-    { hid: 'description', name: 'description', content: "Our goal is to eliminate the overhead of agile. We are automating scrum, status updates, and sprint planning. Your engineers should spend time coding, not being micromanaged." },
+    { hid: 'description', name: 'description', content: "Eliminating the overhead of agile. Automating scrum, status updates, and sprint planning. Your engineers should spend time coding, not being micromanaged." },
     { hid: 'title', name: 'title', content: 'AiSu - Freeing engineers from Agile' },
 
     // OPEN GRAPH/FACEBOOK
     { hid: 'og:type', property: 'og:type', content: 'website' },
-    // { hid: 'og:url', property: 'og:url', content: config.public.appBase },
+    { hid: 'og:url', property: 'og:url', content: 'https://aisu.dev' },
     { hid: 'og:title', property: 'og:title', content: 'AiSu - Freeing engineers from Agile' },
     { hid: 'og:image', property: 'og:image', content: '/meta_card.png' },
 
     // TWITTER
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'AiSu - Freeing engineers from Agile' },
-    { name: 'twitter:description', content: "Our goal is to eliminate the overhead of agile. We are automating scrum, status updates, and sprint planning. Your engineers should spend time coding, not being micromanaged." },
-    { name: 'twitter:image', content: '/meta_card.png' }
+    { name: 'twitter:description', content: "Eliminating the overhead of agile. Automating scrum, status updates, and sprint planning. Your engineers should spend time coding, not being micromanaged." },
+    { name: 'twitter:image', content: 'https://aisu.dev/meta_card.png' }
   ]
 }) 
 
