@@ -1,5 +1,5 @@
 <template>
-  <div class="isolate bg-zinc-900 h-screen py-20 px-4">
+  <div class="isolate bg-zinc-900 sm:h-screen py-20 px-4">
     <svg class="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
       <defs>
         <pattern id="983e3e4c-de6d-4c3f-8d64-b9761d1534cc" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse">
