@@ -24,6 +24,7 @@
       data-netlify="true"
       class="mx-auto mt-16 max-w-xl sm:mt-12"
     >
+      <input type="hidden" name="form-name" value="contact-form" />
       <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
         <div>
           <label for="first-name" class="block text-sm font-semibold leading-6 text-zinc-200">First name <span class="text-red-500">*</span></label>
