@@ -218,7 +218,7 @@ useHead({
 
     // OPEN GRAPH/FACEBOOK
     { hid: 'og:type', property: 'og:type', content: 'website' },
-    // { hid: 'og:url', property: 'og:url', content: config.public.appBase },
+    { hid: 'og:url', property: 'og:url', content: 'https://aisu.dev' },
     { hid: 'og:title', property: 'og:title', content: 'AiSu - Private Beta Signup' },
     { hid: 'og:image', property: 'og:image', content: '/meta_card.png' },
 
@@ -226,7 +226,7 @@ useHead({
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'AiSu - Private Beta Signup' },
     { name: 'twitter:description', content: "We're now accepting requests to signup for our private beta. Please fill out the below form and we'll reach out to you to get things started." },
-    { name: 'twitter:image', content: '/meta_card.png' }
+    { name: 'twitter:image', content: 'https://aisu.dev/meta_card.png' }
   ]
 }) 
 </script>
