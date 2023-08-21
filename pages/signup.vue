@@ -12,7 +12,9 @@
       <rect width="100%" height="100%" stroke-width="0" fill="url(#983e3e4c-de6d-4c3f-8d64-b9761d1534cc)" />
     </svg>
     <div class="mx-auto max-w-xl">
-      <img class="h-11" src="../assets/img/aisu.png" alt="aisu">
+      <NuxtLink to="/">
+        <img class="h-11" src="../assets/img/aisu.png" alt="aisu">
+      </NuxtLink>
       <h2 class="mt-10 text-3xl font-bold tracking-tight text-zinc-200">Signup for our private beta</h2>
       <p class="mt-2 text-lg leading-8 text-zinc-400">We're now accepting requests to signup for our private beta. Please fill out the below form and we'll reach out to you to get things started.</p>
     </div>
